@@ -1,0 +1,31 @@
+#__notion__helper__crx__{
+  position: fixed;
+  top:10px;
+  right: 10px;
+  z-index: 10000000;
+}
+
+
+.__notion__helper__selected__ {
+  outline:rgba(var(--semi-green-5), 1);
+  outline-width: medium;
+  outline-offset: 0px;
+  outline-style:solid;
+  transition: all .1s;
+}
+
+.__notion__helper__hovered__ {
+  outline:rgba(var(--semi-blue-5), 1);
+  outline-width: medium;
+  outline-offset: 0px;
+  outline-style: dashed;
+  transition: all .1s;
+}
+
+.__notion__helper__hovered__.__notion__helper__selected__ {
+  outline:rgba(var(--semi-red-5), 1);
+  outline-width: medium;
+  outline-offset: 0px;
+  outline-style: dashed;
+  transition: all .1s;
+}
